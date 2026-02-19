@@ -1,0 +1,156 @@
+{
+    "projects": [
+        {
+            "id": "p1",
+            "title": "Cyber-Slum Ambience",
+            "category": "Sound Design",
+            "description": "Immersive urban decay textures for AAA shooter title.",
+            "tags": [
+                "Ambience",
+                "Foley",
+                "Unreal 5"
+            ],
+            "imageUrl": "https://picsum.photos/seed/cyber1/800/600",
+            "videoUrl": "https://drive.google.com/file/d/1hafFbEomATrfBBiEaiL2e0HylEB08EiM/preview",
+            "audioSpec": "24-bit / 48kHz"
+        },
+        {
+            "id": "p2",
+            "title": "Neon Rain LO-FI",
+            "category": "Composition",
+            "description": "Adaptive musical score for cyberpunk graphic novel.",
+            "tags": [
+                "Synthwave",
+                "Adaptive",
+                "Middleware"
+            ],
+            "imageUrl": "https://picsum.photos/seed/neon2/800/600",
+            "videoUrl": "https://drive.google.com/file/d/1407HWqqRZmVBrf6ybVZcY354RYm9h2XU/preview",
+            "audioSpec": "16-bit / 44.1kHz"
+        },
+        {
+            "id": "p3",
+            "title": "Mech Warrior Foley",
+            "category": "Foley",
+            "description": "Heavy metal impacts and hydraulic servo recordings.",
+            "tags": [
+                "Metal",
+                "Hydraulics",
+                "Impacts"
+            ],
+            "imageUrl": "https://picsum.photos/seed/mech3/800/600",
+            "videoUrl": "https://drive.google.com/file/d/1oGrVSsetk92SnWOo3rrh4Mpix_u7v3Cp/preview",
+            "audioSpec": "24-bit / 96kHz"
+        },
+        {
+            "id": "p4",
+            "title": "UI Interface Pack",
+            "category": "UI SFX",
+            "description": "Holographic blips, confirms, and error states.",
+            "tags": [
+                "UI",
+                "Sci-Fi",
+                "Clean"
+            ],
+            "imageUrl": "https://picsum.photos/seed/ui4/800/600",
+            "videoUrl": "https://drive.google.com/file/d/1L_HZzvYA72XqzszyBn8kWV7UXj3xwRmy/preview",
+            "audioSpec": "24-bit / 48kHz"
+        },
+        {
+            "id": "p5",
+            "title": "Horror Game OST",
+            "category": "Composition",
+            "description": "Binaural horror soundscapes using experimental synthesis.",
+            "tags": [
+                "Horror",
+                "Binaural",
+                "Dark"
+            ],
+            "imageUrl": "https://picsum.photos/seed/horror5/800/600",
+            "videoUrl": "https://drive.google.com/file/d/1OoXdHbT6CYytpffXnRb5JqcTxAWSnlqv/preview",
+            "audioSpec": "24-bit / 48kHz"
+        },
+        {
+            "id": "p6",
+            "title": "Industrial Drone",
+            "category": "Sound Design",
+            "description": "Looping machinery textures for sci-fi environments.",
+            "tags": [
+                "Industrial",
+                "Drone",
+                "Loop"
+            ],
+            "imageUrl": "https://picsum.photos/seed/drone6/800/600",
+            "videoUrl": "https://drive.google.com/file/d/1KE9jyvCGferM6w49i_PlF0c0FRR0XOJN/preview",
+            "audioSpec": "24-bit / 96kHz"
+        }
+    ],
+    "lab": {
+        "pads": [
+            {
+                "id": "A1",
+                "label": "KICK",
+                "key": "Q",
+                "color": "bg-secondary",
+                "icon": "Music",
+                "audioSrc": "/audio/kick.wav"
+            },
+            {
+                "id": "A2",
+                "label": "SNARE",
+                "key": "W",
+                "color": "bg-secondary",
+                "icon": "Music",
+                "audioSrc": "/audio/snare.wav"
+            },
+            {
+                "id": "A3",
+                "label": "HIHAT",
+                "key": "E",
+                "color": "bg-secondary",
+                "icon": "Music",
+                "audioSrc": "/audio/hihat.wav"
+            },
+            {
+                "id": "A4",
+                "label": "CLAP",
+                "key": "R",
+                "color": "bg-secondary",
+                "icon": "Music",
+                "audioSrc": "/audio/clap.wav"
+            },
+            {
+                "id": "B1",
+                "label": "BASS",
+                "key": "A",
+                "color": "bg-primary",
+                "icon": "Radio",
+                "audioSrc": "/audio/bass.wav"
+            },
+            {
+                "id": "B2",
+                "label": "SYNTH",
+                "key": "S",
+                "color": "bg-primary",
+                "icon": "Activity",
+                "audioSrc": "/audio/synth.wav"
+            },
+            {
+                "id": "B3",
+                "label": "VOX",
+                "key": "D",
+                "color": "bg-primary",
+                "icon": "Mic",
+                "audioSrc": "/audio/vox.wav"
+            },
+            {
+                "id": "B4",
+                "label": "STAB",
+                "key": "F",
+                "color": "bg-primary",
+                "icon": "Zap",
+                "audioSrc": "/audio/stab.wav"
+            }
+        ]
+    }
+}

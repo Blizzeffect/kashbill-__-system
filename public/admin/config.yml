@@ -1,0 +1,48 @@
+backend:
+  name: git-gateway
+  branch: main
+  commit_messages:
+    create: 'Create {{collection}} “{{slug}}”'
+    update: 'Update {{collection}} “{{slug}}”'
+    delete: 'Delete {{collection}} “{{slug}}”'
+    uploadMedia: '[skip ci] Upload “{{path}}”'
+    deleteMedia: '[skip ci] Delete “{{path}}”'
+
+media_folder: "public/assets"
+public_folder: "/assets"
+
+collections:
+  - name: "content"
+    label: "Site Content"
+    files:
+      - file: "src/content/data.json"
+        label: "Projects & Lab Data"
+        name: "data"
+        fields:
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            fields:
+              - {label: "ID (Unique)", name: "id", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Category", name: "category", widget: "select", options: ["Sound Design", "Composition", "UI SFX", "Foley"]}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Tags", name: "tags", widget: "list", field: {label: "Tag", name: "tag", widget: "string"}}
+              - {label: "Image", name: "imageUrl", widget: "image"}
+              - {label: "Video URL", name: "videoUrl", widget: "string", required: false, hint: "YouTube link, MP4 path, or Drive ID"}
+              - {label: "Audio Spec", name: "audioSpec", widget: "string", default: "24-bit / 48kHz"}
+          
+          - label: "Sound Lab Pads"
+            name: "lab"
+            widget: "object"
+            fields:
+              - label: "Pads"
+                name: "pads"
+                widget: "list"
+                fields:
+                  - {label: "ID", name: "id", widget: "string"}
+                  - {label: "Label", name: "label", widget: "string"}
+                  - {label: "Key", name: "key", widget: "string"}
+                  - {label: "Color", name: "color", widget: "select", options: ["bg-primary", "bg-secondary"]}
+                  - {label: "Icon", name: "icon", widget: "select", options: ["Music", "Radio", "Activity", "Mic", "Zap", "Volume2", "Layers"]}
+                  - {label: "Audio File", name: "audioSrc", widget: "file"}
