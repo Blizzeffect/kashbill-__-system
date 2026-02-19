@@ -1,20 +1,56 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# KASHBILL - Precision Audio Systems
 
-# Run and deploy your AI Studio app
+A high-performance, immersive portfolio for an Audio Architect & Sonic Designer. Built with React, Vite, and Tailwind CSS.
 
-This contains everything you need to run your app locally.
+## 🚀 Quick Start
 
-View your app in AI Studio: https://ai.studio/apps/drive/16FQ3TmVo3qNWFK34P1nmXTUA-b97tKLk
+1.  **Install Dependencies**
+    ```bash
+    npm install
+    ```
 
-## Run Locally
+2.  **Run Locally**
+    ```bash
+    npm run dev
+    ```
+    Access the site at `http://localhost:3000`.
 
-**Prerequisites:**  Node.js
+## 🛠️ Configuration & Content
 
+This project is designed to be easily updated without touching the core code.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 1. Main Configuration
+Edit `src/site.config.ts` to change:
+-   Site Name, Role, Description
+-   Contact Information (Email, LinkedIn)
+-   Bio Text
+-   Logo & Profile Images
+
+### 2. Managing Projects & Sound Lab
+Content is stored in `src/content/data.json`.
+-   **Projects**: Add your portfolio items here.
+    -   Supports **Images** and **Videos** (e.g., Google Drive Preview links).
+-   **Sound Lab**: Configure the interactive drum pads.
+    -   Map keys (Q, W, E, R, etc.) to audio files in `public/audio/`.
+
+### 3. Admin CMS (Optional)
+If deployed to Vercel with Git integration, you can use the built-in CMS at `/admin` to edit content visually.
+-   Access: `https://your-site.vercel.app/admin`
+-   Requires `git-gateway` or GitHub authentication enabled on Vercel/Netlify.
+
+## 📦 Assets
+-   **Images/Logos**: Place in `public/` folder.
+-   **Audio Files**: Place in `public/audio/` folder.
+-   **Resume**: Place `resume.pdf` in `public/`.
+
+## 🚢 Deployment
+
+**Vercel (Recommended)**
+1.  Push this code to a GitHub repository.
+2.  Import the repository into [Vercel](https://vercel.com/).
+3.  Deploy.
+
+The Admin CMS will automatically work if you enable Git Gateway or use a compatible auth provider.
+
+## 📄 License
+All rights reserved. Designed for KASHBILL.
