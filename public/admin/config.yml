@@ -26,7 +26,12 @@ collections:
               - {label: "ID (Unique)", name: "id", widget: "string"}
               - {label: "Title", name: "title", widget: "string"}
               - {label: "Category", name: "category", widget: "select", options: ["Sound Design", "Composition", "UI SFX", "Foley"]}
-              - {label: "Description", name: "description", widget: "text"}
+              - label: "Description"
+                name: "description"
+                widget: "object"
+                fields:
+                  - {label: "English", name: "en", widget: "text"}
+                  - {label: "Español", name: "es", widget: "text"}
               - {label: "Tags", name: "tags", widget: "list", field: {label: "Tag", name: "tag", widget: "string"}}
               - {label: "Image", name: "imageUrl", widget: "image"}
               - {label: "Video URL", name: "videoUrl", widget: "string", required: false, hint: "YouTube link, MP4 path, or Drive ID"}

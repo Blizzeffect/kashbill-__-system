@@ -1,0 +1,34 @@
+{
+    "nav": {
+        "log": "REGISTRO",
+        "works": "PROYECTOS",
+        "lab": "EL LAB",
+        "bio": "BIO",
+        "contact": "CONTACTO"
+    },
+    "home": {
+        "projects": "PROYECTOS",
+        "cpuLoad": "CARGA CPU",
+        "latency": "LATENCIA"
+    },
+    "works": {
+        "title": "PORTAFOLIO",
+        "allFiles": "TODOS LOS PROYECTOS",
+        "demo": "DEMO"
+    },
+    "lab": {
+        "title": "EL LABORATORIO",
+        "subtitle": "CUADRÍCULA DE EXPERIMENTACIÓN SÓNICA",
+        "export": "EXPORTAR",
+        "signal": "SEÑAL ACTIVA",
+        "ready": "LISTO",
+        "left": "IZQ",
+        "right": "DER",
+        "master": "MASTER"
+    },
+    "bio": {
+        "email": "CORREO",
+        "linkedin": "LINKEDIN",
+        "resume": "CURRÍCULUM"
+    }
+}

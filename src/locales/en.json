@@ -1,0 +1,34 @@
+{
+    "nav": {
+        "log": "LOG",
+        "works": "WORKS",
+        "lab": "LAB",
+        "bio": "BIO",
+        "contact": "CONTACT"
+    },
+    "home": {
+        "projects": "PROJECTS",
+        "cpuLoad": "CPU LOAD",
+        "latency": "LATENCY"
+    },
+    "works": {
+        "title": "PORTFOLIO",
+        "allFiles": "ALL PROJECTS",
+        "demo": "DEMO"
+    },
+    "lab": {
+        "title": "THE LAB",
+        "subtitle": "SONIC EXPERIMENTATION GRID",
+        "export": "EXPORT",
+        "signal": "ACTIVE SIGNAL",
+        "ready": "READY",
+        "left": "LEFT",
+        "right": "RIGHT",
+        "master": "MASTER"
+    },
+    "bio": {
+        "email": "EMAIL",
+        "linkedin": "LINKEDIN",
+        "resume": "RESUME"
+    }
+}

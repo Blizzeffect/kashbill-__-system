@@ -4,7 +4,10 @@
             "id": "p1",
             "title": "Cyber-Slum Ambience",
             "category": "Sound Design",
-            "description": "Immersive urban decay textures for AAA shooter title.",
+            "description": {
+                "en": "Immersive urban decay textures for AAA shooter title.",
+                "es": "Texturas de decadencia urbana inmersiva para un título shooter AAA."
+            },
             "tags": [
                 "Ambience",
                 "Foley",
@@ -18,7 +21,10 @@
             "id": "p2",
             "title": "Neon Rain LO-FI",
             "category": "Composition",
-            "description": "Adaptive musical score for cyberpunk graphic novel.",
+            "description": {
+                "en": "Adaptive musical score for cyberpunk graphic novel.",
+                "es": "Banda sonora adaptativa para una novela gráfica cyberpunk."
+            },
             "tags": [
                 "Synthwave",
                 "Adaptive",
@@ -32,7 +38,10 @@
             "id": "p3",
             "title": "Mech Warrior Foley",
             "category": "Foley",
-            "description": "Heavy metal impacts and hydraulic servo recordings.",
+            "description": {
+                "en": "Heavy metal impacts and hydraulic servo recordings.",
+                "es": "Impactos de metal pesado y grabaciones de servos hidráulicos."
+            },
             "tags": [
                 "Metal",
                 "Hydraulics",
@@ -46,7 +55,10 @@
             "id": "p4",
             "title": "UI Interface Pack",
             "category": "UI SFX",
-            "description": "Holographic blips, confirms, and error states.",
+            "description": {
+                "en": "Holographic blips, confirms, and error states.",
+                "es": "Detecciones holográficas, confirmaciones y estados de error."
+            },
             "tags": [
                 "UI",
                 "Sci-Fi",
@@ -60,7 +72,10 @@
             "id": "p5",
             "title": "Horror Game OST",
             "category": "Composition",
-            "description": "Binaural horror soundscapes using experimental synthesis.",
+            "description": {
+                "en": "Binaural horror soundscapes using experimental synthesis.",
+                "es": "Paisajes sonoros de terror binaurales utilizando síntesis experimental."
+            },
             "tags": [
                 "Horror",
                 "Binaural",
@@ -74,7 +89,10 @@
             "id": "p6",
             "title": "Industrial Drone",
             "category": "Sound Design",
-            "description": "Looping machinery textures for sci-fi environments.",
+            "description": {
+                "en": "Looping machinery textures for sci-fi environments.",
+                "es": "Texturas de maquinaria en bucle para entornos de ciencia ficción."
+            },
             "tags": [
                 "Industrial",
                 "Drone",
